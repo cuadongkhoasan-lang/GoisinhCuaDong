@@ -42,7 +42,11 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ messages, onSendMessage, 
   return (
     <div className="flex flex-col h-full bg-gray-50">
       <header className="bg-pink-500 text-white p-4 flex items-center shadow-md">
-        <img src={logo} alt="Logo Bệnh viện" className="h-10 w-10 mr-4" />
+        <img
+  src={logo}
+  alt="Logo Bệnh viện"
+  className="h-10 w-10 mr-4 rounded-full bg-white object-cover p-0.5 border border-white"
+/>
         <div>
           <h1 className="text-xl font-bold">Tư vấn Gói sinh</h1>
           <p className="text-sm">Bệnh viện Đa khoa Cửa Đông</p>
