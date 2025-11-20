@@ -1,9 +1,11 @@
 export const HOSPITAL_DATA = {
   hospitalInfo: {
     name: "Bệnh viện Đa khoa Cửa Đông",
-    hotline: "0974 035 456",
-    address: "Số 136 và 143 Nguyễn Phong Sắc - TP. Vinh",
-    website: "benhviencuadong.vn"
+    hotline: "1900.8686",
+    address: "Số 136 và 143 Nguyễn Phong Sắc - Phường Trường Vinh - Nghệ An",
+    website: "benhviencuadong.vn",
+    supportHotline: "02383 569 888",
+    serviceRegistrationLocation: "Quầy tiếp đón tầng 5",
   },
   maternityPackages: [
     {
@@ -45,10 +47,10 @@ export const HOSPITAL_DATA = {
         "Bác sỹ nội viện: 1.000.000đ",
         "Chi phí chọn giờ sinh: Từ 7h00 - 17h00: 1.000.000đ, Từ 17h01 - 22h00: 1.500.000đ, Từ 22h01 - 7h00: 2.000.000đ",
         "Chi phí giảm đau trong sinh thường",
-        "Phương pháp gây tê ngoài màng cứng sử dụng bộ Epi-spin lock: 2.300.000đ",
+        "Phương pháp gây tê ngoài màng cứng sử dụng bộ Epi-spin lock: 2.000.000đ trong giờ hành chính và 2.300.000đ ngoài giờ hành chính",
         "Chi phí giảm đau sau sinh mổ",
-        "Phương pháp giảm đau sau mổ ngoài màng cứng 3 ngày sử dụng Epi-spin lock: 3.000.000đ",
-        "Giảm đau tĩnh mạch: 1.500.000đ",
+        "Phương pháp giảm đau sau mổ ngoài màng cứng 3 ngày sử dụng Epi-spin lock: 3.000.000đ và 3.300.000đ ngoài giờ hành chính",
+        "Giảm đau tĩnh mạch: 1.500.000đ và 1.800.000đ ngoài giờ hành chính",
         "Chi phí sàng lọc sơ sinh",
         "Chi phí truyền máu",
         "Khâu thẩm mỹ tầng sinh môn: 1.500.000đ",
@@ -100,10 +102,10 @@ export const HOSPITAL_DATA = {
         "Bác sỹ nội viện: 1.000.000đ",
         "Chi phí chọn giờ sinh: Từ 7h00 - 17h00: 1.000.000đ, Từ 17h01 - 22h00: 1.500.000đ, Từ 22h01 - 7h00: 2.000.000đ",
         "Chi phí giảm đau trong sinh thường",
-        "Phương pháp gây tê ngoài màng cứng sử dụng bộ Epi-spin lock: 2.300.000đ",
+        "Phương pháp gây tê ngoài màng cứng sử dụng bộ Epi-spin lock: 2.000.000đ trong giờ hành chính và 2.300.000đ ngoài giờ hành chính",
         "Chi phí giảm đau sau sinh mổ",
-        "Phương pháp giảm đau sau mổ ngoài màng cứng 3 ngày sử dụng Epi-spin lock: 3.000.000đ",
-        "Giảm đau tĩnh mạch: 1.500.000đ",
+        "Phương pháp giảm đau sau mổ ngoài màng cứng 3 ngày sử dụng Epi-spin lock: 3.000.000đ và 3.300.000đ ngoài giờ hành chính",
+        "Giảm đau tĩnh mạch: 1.500.000đ và 1.800.000đ ngoài giờ hành chính",
         "Chi phí sàng lọc sơ sinh",
         "Chi phí truyền máu",
         "Khâu thẩm mỹ tầng sinh môn: 1.500.000đ",
@@ -158,7 +160,7 @@ export const HOSPITAL_DATA = {
         "Phương pháp gây tê ngoài màng cứng sử dụng bộ Epi-spin lock: 2.000.000đ trong giờ hành chính và 2.300.000đ ngoài giờ hành chính",
         "Chi phí giảm đau sau sinh mổ",
         "Phương pháp giảm đau sau mổ ngoài màng cứng 3 ngày sử dụng Epi-spin lock: 3.000.000đ và 3.300.000đ ngoài giờ hành chính",
-        "Giảm đau tĩnh mạch: 1.500.000đ",
+        "Giảm đau tĩnh mạch: 1.500.000đ và 1.800.000đ ngoài giờ hành chính",
         "Chi phí sàng lọc sơ sinh",
         "Chi phí truyền máu",
         "Khâu thẩm mỹ tầng sinh môn: 1.500.000đ",
@@ -187,5 +189,41 @@ export const HOSPITAL_DATA = {
       "Đối với khách hàng đã khám thai tại bệnh viện, sẽ hoàn cọc dựa trên số lần khách hàng đến khám thai (mỗi lần khám thai sẽ bị khấu trừ 100.000đ trong chi phí hoàn cọc).",
       "Trường hợp khách hàng hủy gói theo nguyện vọng cá nhân sẽ không được hoàn cọc."
     ]
+  },
+  additionalServices: {
+    title: "CÁC DỊCH VỤ NGOÀI GÓI TẠI KHOA SẢN",
+    services: [
+      { name: "Khâu thẩm mỹ tầng sinh môn", price: "1.500.000đ" },
+      { name: "Triệt sản/ kết hợp mổ lấy thai", price: "1.000.000đ" },
+      { name: "Chọn giờ mổ (7 giờ - 17 giờ)", price: "1.000.000đ" },
+      { name: "Chọn giờ mổ (17 giờ - 22 giờ)", price: "1.500.000đ" },
+      { name: "Chọn giờ mổ (22 giờ - 07 giờ)", price: "2.000.000đ" },
+      { name: "Chọn bác sỹ nội viện", price: "1.000.000đ" },
+      { name: "Giảm đau sau mổ (qua đường ngoài màng cứng)", price: "2.250.000đ (chưa bao gồm thuốc 500.000đ - 800.000đ)" },
+      { name: "Giảm đau sau mổ qua đường tĩnh mạch", price: "1.500.000đ" },
+      { name: "Giảm đau sau mổ qua đường tĩnh mạch (NG)", price: "1.800.000đ" },
+      { name: "Đẻ không đau (giờ hành chính: 7h- 17h)", price: "2.000.000đ" },
+      { name: "Đẻ không đau (ngoài giờ hành chính: 17h- 07h)", price: "2.300.000đ" },
+      { name: "Chiếu tia plassma lạnh (vết thương mẹ/ rốn bé)", price: "300.000đ/lần" },
+      { name: "Sàng lọc máu gót chân cho bé: 5 bệnh cơ bản", price: "650.000đ" },
+      { name: "Sàng lọc máu gót chân cho bé: 7 bệnh cơ bản", price: "800.000đ" },
+      { name: "Sàng lọc Thalassemia", price: "400.000đ" },
+      { name: "Sàng lọc máu gót chân cho bé: 60 bệnh", price: "2.500.000đ" },
+      { name: "Đăng ký giặt quần áo", price: "20.000đ/kg" },
+      { name: "Đăng ký suất ăn cho người nhà", price: "30.000đ/suất (Theo nhu cầu)" },
+      { name: "Đăng ký nhân viên chăm sóc toàn diện", price: "1.000.000đ/ngày" },
+      { name: "Liệu trình chăm sóc sau sinh combo 3 ngày", price: "550.000đ" },
+      { name: "Liệu trình chăm sóc sau sinh combo 5 ngày", price: "850.000đ" },
+      { name: "Massger kích sữa", price: "200.000đ/lần" },
+      { name: "Gội đầu", price: "80.000đ/lần" },
+      { name: "Massger cổ vai gáy", price: "200.000đ/lần" },
+      { name: "Chăm sóc da mặt toàn diện", price: "200.000đ/lần" },
+      { name: "Ngâm chân bằng thuốc bắc", price: "100.000đ/lần" },
+      { name: "Chiếu đèn vàng da cho bé", price: "360.000đ/lần" },
+    ]
+  },
+  safetyWarning: {
+    title: "GÓC CẢNH BÁO",
+    note: "Quý khách hàng lưu ý tất cả thông tin tại Bệnh viện luôn được cam kết **bảo mật hoàn toàn**. Vì vậy khi có người gọi điện **mạo danh nhân viên bệnh viện** để tư vấn mua hàng tại nhà: bán thuốc, tiêm phòng, vui lòng từ chối tiếp nhận. Trân trọng!"
   }
 };
