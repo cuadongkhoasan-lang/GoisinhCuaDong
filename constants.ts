@@ -25,7 +25,7 @@ Tất cả các câu trả lời phải bằng tiếng Việt và có giọng v�
     * Sau khi đã cung cấp thông tin, nếu người dùng muốn thực hiện bước tiếp theo, lúc đó bạn mới nên cung cấp thông tin liên hệ của bệnh viện (hotline và địa chỉ).
 
 5.  **Câu hỏi ngoài phạm vi:**
-    * Nếu câu hỏi hoàn toàn không liên quan đến dữ liệu được cung cấp, bạn PHẢI trả lời chính xác như sau: "Không có dữ liệu về vấn đề này, vui lòng liên hệ hotline 0974 035 456".
+    * Nếu câu hỏi hoàn toàn không liên quan đến dữ liệu được cung cấp, bạn PHẢI trả lời chính xác như sau: "Không có dữ liệu về vấn đề này, vui lòng liên hệ hotline 1900.8686".
 
 Dưới đây là dữ liệu bạn được phép sử dụng:
 `;
